@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jonatan Bordon | Programación JavaScript y Desarrollo Web</title>
+    <link rel="icon" href="img/favicon.png" sizes="40x40" type="image/png">
+    <!-- EXTERNAL CSS LINK  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- GOOGLE FONT LINKS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap"rel="stylesheet"/>
+    <!-- FONTAWESOME LINK  -->
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js" crossorigin="anonymous"></script>
+    <!-- SLICK SLIDER LINK -->
+    <script src="js/jQuery3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <style>
+      .aboutMe {
+        background-image: url("img/parallaxBg.jpeg");
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <!-- NAVIGATION STARTS (DESKTOP VIEW AFTER 768px) ------------------->
+      <nav class="navBar">
+        <div id="navMenu">
+          <a href="#intro" class="logo">
+            <span id="name"> Jonatan <br />Bordon </span>
+            <span id="profession">Programación JavaScript y Desarrollo Web</span>
+          </a>
+          <a href="#about" class="navItems"> Sobre mi </a>
+          <a href="#experience" class="navItems"> Experiencia </a>
+          <a href="#projects" class="navItems"> Proyectos </a>
+          <a href="#skills" class="navItems"> Habilidades </a>
+          <a href="#education" class="navItems"> Educacion </a>
+          <a href="#contact" class="navItems"> Contacto </a>
+        </div>
+      </nav>
+      <!-- NAVIGATION ENDS --------------------->
+
+      <!-- NAVIGATION STARTS (DESKTOP VIEW BEFORE 768px) ------------------->
+      <nav class="topHeading" id="logoHeading">
+
+        <div class="mobileViewNavbar">
+
+          <div id="toggleOpen"> &#9776; </div>
+  
+          <div class="mobileViewNavmenu">
+            <a href="#intro" class="mobileViewLogo">
+              <span id="myName"> Jonatan Bordon </span>
+              <span id="myProfession"> Programación JavaScript y Desarrollo Web </span>
+            </a>
+            
+          </div>
+        </div>
+
+      </nav>
+      <!-- NAVIGATION ENDS  ------------------->
+
+      <!-- HIDDEN NAVIGATION ITEMS STARTS (MOBILE VIEW) -->
+      <nav class="hiddenMenu" id="showHide">
+        <div id="toggleClose"></div>
+        <div id="navMenu hiddenItems">
+          <a href="#about" class="navItems about" id="navItems"> Sobre mi </a>
+          <a href="#experience" class="navItems experience" id="navItems"> Experiencia </a>
+          <a href="#projects" class="navItems projects" id="navItems"> Proyectos </a>
+          <a href="#skills" class="navItems skills" id="navItems"> Habilidades </a>
+          <a href="#education" class="navItems education" id="navItems"> Educacion </a>
+          <a href="#contact" class="navItems contact" id="navItems"> Contacto </a>
+        </div>
+
+      </nav>
+      <!-- HIDDEN NAVIGATION ITEMS ENDS -->
+
+      <!-- SECTION STARTS ------------------------------------------>
+
+      <!-- INTRO SECTION STARTS -->
+      <section class="section scrollspy" id="intro">
+        <div class="introWrapper">
+          <section class="aboutMe parallaxContainer">
+            <h2>
+              Fundamentos Digitales en Front End, Back End, Infraestructura y Base de Datos
+            </h2>
+          </section>
+        </div>
+      </section>
+      <!-- INTRO SECTION ENDS -->
+
+      <!-- ABOUT SECTION STARTS -->
+      <section class="section scrollspy" id="about">
+        <h1>Sobre mi</h1>
+        <div class="aboutSection commonProperty">
+          <!-- <h3>Hello!</h3> -->
+          <p id="hello">
+            Actualmente estoy cursando la carrera de "Certified Tech Developer" pensada y diseñada por <a href="https://www.digitalhouse.com/ar" class="currentCompany" target="_blank">Digital House</a>, <a href="https://www.mercadolibre.com.ar/" class="currentCompany" target="_blank">Mercado Libre</a> y <a href="https://www.globant.com/" class="currentCompany" target="_blank">Globant</a>, para formar desarrolladores siguiendo los más altos estándares de la industria.
+            
+            <br /><br />
+            Me describo a mí mismo como un desarrollador en proceso de formacion al que le gusta codificar cosas desde cero, disfruto dando vida a las ideas en el navegador y contribuyo a proyectos de código abierto. Eso me ayuda a aprender muchas cosas nuevas, crecer como desarrollador y apoyar otros proyectos de código abierto. <br />
+            Además, disfruto asistiendo a conferencias o tutoriales de desarrolladores en torno a nuevas tecnologias!
+            <br /><br />
+          </p>
+          <div class="currentFocus">
+            <h4>Enfoque actual: </h4> <p>React Native, ReactJS..Completar </p>
+          </div>
+         
+        </div>
+      </section>
+      <!-- ABOUT SECTION ENDS -->
+
+      <!-- EXPERIENCE SECTION STARTS -->
+      <section class="section scrollspy" id="experience">
+        <h1>EXPERIENCE</h1>
+        <div class="commonProperty experienceSectoin">
+            <!-- BOX-1 -->
+            <div class="box box1">
+              <div class="boxhead">
+                <div class="boxLogo">
+                  <img src="./img/CodecopLogo.jpg" alt="CodecopLogo"/>
+                </div>
+                <h3>Codecop S.A</h3>
+                <div class="position">
+                  <h4>Líder en procesamiento de valores e información</h4>
+                </div>
+              </div>
+              <hr>
+              <div class="boxBody">
+                <p>
+                    - Auditoria Mensual. </br>
+                    - Respuesta a problemas/consultas planteados por los clientes. </br>
+                    - Detección y resolución eficiente de incidencias. </br>
+                    - Gestión de los proyectos y presupuestos asignados. </br>
+                    - Coordinación de un equipo de profesionales a cargo. </br>
+                    - Eliminación de perdidas internas .</br>
+                    - Reuniones periódicas con el equipo y comunicación de resultados. </br>
+                    - Control de calidad de los procesos y los servicios ofrecidos por la empresa.</br>
+                    - Planificación, distribución y seguimiento de las tareas del equipo.</br>
+                   
+                </p>
+              </div>
+              <div class="boxFoot">
+                <p>oct. 2018 - oct. 2021 · </p>
+              </div>
+            </div>
+          <!-- BOX-1 -->
+          <div class="box box1">
+            <div class="boxhead">
+              <div class="boxLogo">
+                <img src="./img/BrinksLogo.jpg" alt="BrinksLogo"/>
+              </div>
+              <h3>Brink's Argentina</h3>
+              <div class="position">
+                <h4>Cajero- Recontador de valores</h4>
+              </div>
+            </div>
+            <hr>
+            <div class="boxBody">
+              <p>
+                - Identificación de legitimidad de billetes y documentos apócrifos/adulterados. (pesos. dólares, euros). </br>
+                - Manejo de grandes volúmenes de dinero. </br>
+                - Data Entry (Cheques, boletas de depósitos, documentos de transporte). </br>
+                - Utilización y conocimiento de máquinas recontadoras de dinero Glory/Laurel todas las versiones. </br>
+                - Colaboración con el resto del equipo en tareas generales del establecimiento. </br>
+                - Manejo eficaz de lectores digitales y terminales de pago.</br>
+                -Realización de cuadres y arqueos de caja al final de cada turno.</br>
+              </p>
+            </div>
+            <div class="boxFoot">
+              <p>oct. 2011 - nov. 2019 </p>
+            </div>
+          </div>
+          <!-- BOX-1 -->
+          <div class="box box1">
+            <div class="boxhead">
+              <div class="boxLogo">
+                <img
+                  src="./img/CerveceriaLogo.jpg"
+                  alt="CerveceriaLogo"
+                />
+              </div>
+              <h3>Cervecería y Maltería Quilmes</h3>
+              <div class="position"><h4>Auxiliar de tesorería</h4></div>
+            </div>
+            <hr>
+            <div class="boxBody">
+              <p>
+                - Manejo de grandes volúmenes de dinero </br>
+                - Retenciones AFIP e Ingresos Brutos.</br>
+                - Confección de reportes e informes de recaudación al directorio y empresas tercerizadas. </br>
+                - Seguimiento de los pagos pendientes para ponerlos en conocimiento de los clientes y proveedores. </br>
+                - Creación de registros para transacciones financieras. </br>
+                - Comprobación de la conciliación de cuentas de los clientes. </br>
+                - Comparación de documentos y registros para verificar su autenticidad. </br>
+                - Supervisión de las actividades monetarias realizadas en cuentas a pagar y a cobrar. </br>
+                - Apoyo en temas de impuestos y auditorías. </br>
+                - Supervisón y planificación de las tareas desempeñadas por el equipo de trabajo. </br>
+
+              </p>
+
+              </p>
+            </div>
+            <div class="boxFoot">
+              <p>jun. 2016 - nov. 2018 </p>
+            </div>
+          </div>
+          <!-- BOX-2  -->
+          <div class="box box2">
+            <div class="boxhead">
+              <div class="boxLogo">
+                <img
+                  src="./img/BingoLogo.jpg"
+                  alt="BingoLogo"
+                />
+              </div>
+              <h3>Bingo Avellaneda</h3>
+              <div class="position"><h4>Auxiliar de tesorería</h4></div>
+            </div>
+            <hr>
+            <div class="boxBody">
+              <p>
+                - Responsable de la línea de cajas y abastecimiento de las mismas, arqueo y cierre. </br>
+                - Reporte de recaudación e informe del día a Lotería de la Provincia.  </br>
+                - Consolidación de valores y acondicionamiento para su respectivo depósito, confección de remesas.  </br>
+                - Creación de registros para transacciones financieras. </br>
+                - Apoyo en temas de impuestos y auditorías.  </br>
+                - Preparación y empaquetado del procesamiento de valores  </br>
+              </p>
+            </div>
+            <div class="boxFoot">
+              <p>sept. 2010 - ago. 2012</p>
+            </div>
+          </div>
+          <!-- BOX-3 -->
+          <div class="box box3">
+            <div class="boxhead">
+              <div class="boxLogo">
+                <img
+                  src="./img/Mclogo.png"
+                  alt=""
+                />
+              </div>
+              <h3>McDonald's</h3>
+              <div class="position"><h4>Encargado de área</h4></div>
+            </div>
+            <hr>
+            <div class="boxBody">
+              <p>
+                - Realización de cierres mensuales y elaboración de informes para el reporte a dirección. </br>
+                - Identificación de deficiencias en los procesos de trabajo y propuesta de mejoras. </br>
+                - Reuniones periódicas con el equipo y comunicación de resultados. </br>
+                - Implementación de procedimientos y calendarios de control administrativo. </br>
+                - Control de calidad de los procesos y los servicios ofrecidos por la empresa. </br>
+                - Planificación, distribución y seguimiento de las tareas del equipo. </br>
+                - Mantenimiento del orden y la limpieza en el lugar de trabajo. </br>
+                - Colaboración con los compañeros de trabajo para facilitar el cumplimiento de objetivos.</br>
+              </p>
+            </div>
+            <div class="boxFoot">
+              <p>ago. 2008 - jun. 2009</p>
+            </div>
+          </div>
+
+            <div class="boxFoot">
+              <p>Sep 2017 - Oct 2017</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EXPERIENCE SECTION ENDS -->
+
+      <!-- PROJECTS SECTION STARTS -->
+      <section class="section scrollspy" id="projects">
+        <h1>PROJECTS</h1>
+        <div class="commonProperty projectsSection">
+           <!-- PROJECT SLIDER - 1 -->
+          <div class="box box1">
+            <div class="imgGallary">
+              <div class="image">
+                <img src="./img/BingoLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/BrinksLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/CerveceriaLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/CodecopLogo.jpg" alt="">
+              </div>
+            </div>
+            <!-- <a href="https://github.com/lassiecoder/E-CommerceWebsite"> -->
+              <h4>Repositorio1   <br><br>
+                <a href="" id="contactMe">View</a> 
+              </h4>
+            <!-- </a> -->
+          </div>
+          <!-- PROJECT SLIDER - 1 -->
+          <div class="box box1">
+            <div class="imgGallary">
+              <div class="image">
+                <img src="./img/BingoLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/BrinksLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/CerveceriaLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/CodecopLogo.jpg" alt="">
+              </div>
+            </div>
+            <!-- <a href="https://github.com/lassiecoder/E-CommerceWebsite"> -->
+              <h4>Repositorio2  <br><br>
+                <a href="" id="contactMe">View</a> 
+              </h4>
+            <!-- </a> -->
+          </div>
+          <!-- PROJECT SLIDER - 2 -->
+         
+           <!-- PROJECT SLIDER - 2 -->
+           <div class="box box2">
+            <div class="imgGallary">
+              <div class="image">
+                <img src="./img/BingoLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/BrinksLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/CerveceriaLogo.jpg" alt="">
+              </div>
+              <div class="image">
+                <img src="./img/CodecopLogo.jpg" alt="">
+              </div>
+            </div>
+            
+              <h4>Repositorio3 <br><br>
+                <a href="" id="contactMe"> View </a>
+              </h4>
+          </div>
+          
+          </div>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION ENDS -->
+
+      <!-- SKILLS SECTION STARTS -->
+      <section class="section scrollspy" id="skills">
+        <h1>SKILLS</h1>
+        <div class="commonProperty skillsSection">
+          <div class="box box1">
+            <img src="img/html5.png" alt="">
+            <h4>HTML5</h4>
+          </div>
+          <div class="box box2">
+            <img src="img/css3.png" alt="">
+            <h4>CSS3</h4>
+          </div>
+          <!-- <div class="box box3">
+            <img src="img/sass.png" alt="">
+            <h4>SASS</h4>
+          </div> -->
+          <div class="box box4">
+            <img src="img/javascript.png" alt="">
+            <h4>JavaScript</h4>
+          </div>
+          <div class="box box5">
+            <img src="img/jquery.png" alt="">
+            <h4>jQuery</h4>
+          </div>
+          <div class="box box6">
+            <img src="./img/java.png" alt="">
+            <h4>Java</h4>
+          </div>
+          <div class="box box7">
+            <img src="img/github.png" alt="">
+            <h4>GitHub</h4>
+          </div>
+
+          
+        </div>
+      </section>
+      <!-- SKILLS SECTION ENDS -->
+
+      <!-- EDUCATION SECTION STARTS -->
+      <section class="section scrollspy" id="education">
+        <h1>Educacion</h1>
+        <div class="commonProperty educationSection">
+          <!-- BOX-1 -->
+          <div class="box box1">
+            <div class="boxHead">
+              <h3>Digital House</h3>
+              <h5>2022 - Al presente</h5>
+              <h5>Promedio: 9.12</h5>
+            </div>
+            <p class="durationAndDegree">
+              Certified Tech Developer <br>
+              -Ciencias de la Computación.
+            </p>
+          </div>
+          <!-- BOX-2 -->
+          <div class="box box1">
+            <div class="boxHead">
+              <h3>Escuela Educacion Tecnica N°1 "José Ingenieros</h3>
+              <h5>2003 - 2007</h5>
+              <h5>Promedio: 8.33</h5>
+            </div>
+            <p class="durationAndDegree">
+              Tecnico Personal y Profesional en desarrollos Multimedios. <br>
+              -Desarrollo Web.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- EDUCATION SECTION ENDS -->
+
+      <!-- CONTACT SECTION STARTS -->
+      <section class="section scrollspy" id="contact">
+        <h1>CONTACT</h1>
+        <div class="commonProperty contactSection">
+          <div class="box box1">
+            <a href="" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="box box2">
+            <a href="https://www.instagram.com/chonifb/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          </div>
+          <div class="box box3">
+            <a href="https://www.linkedin.com/in/jonatan-franco-bordon-226503252/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          </div>
+          <div class="box box4">
+            <a href="mailto:franco-jb@hotmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+          </div>
+          <div class="box box5">
+            <a href="https://github.com/JonatanBf" target="_blank">
+            <i class="fab fa-github-alt"></i>
+          </a>
+          </div>
+
+        </div>
+      </section>
+      <!-- CONTACT SECTION ENDS -->
+
+      <!-- SECTION ENDS ---------------------------------------------->
+    </div>
+
+    <!-- JS LINKS -->
+    <script src="js/script.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/simple-scrollspy.min.js"></script>
+
+    <!-- <script>
+      window.addEventListener("hashchange", function () {
+        window.scrollByPages(1);
+      });
+    </script> -->
+
+  </body>
+</html>
